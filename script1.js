@@ -2,7 +2,7 @@ const chatinput=document.querySelector(".chat-input textarea");
 const sendchatbtn=document.querySelector(".chat-input span");
 const chatbox=document.querySelector(".chatbox");
 let usermessage;
-const API_KEY="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";
+const API_KEY="secret key";
 const createchatli= (message,classname)=>{
     const chatli=document.createElement("li");
     chatli.classList.add("chat",classname);
